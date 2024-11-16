@@ -1,3 +1,5 @@
+# NOTICE: This distribution has been modified from the original, found at https://github.com/Mendeley/mendeley-python-sdk/tree/master
+
 from mendeley.exception import MendeleyException
 from mendeley.models.documents import *
 from mendeley.resources.base import add_query_params, ListResource

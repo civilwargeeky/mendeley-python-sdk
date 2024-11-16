@@ -1,3 +1,5 @@
+# NOTICE: This distribution has been modified from the original, found at https://github.com/Mendeley/mendeley-python-sdk/tree/master
+
 import platform
 
 from future.moves.urllib.parse import urljoin

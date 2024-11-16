@@ -1,3 +1,5 @@
+# NOTICE: This distribution has been modified from the original, found at https://github.com/Mendeley/mendeley-python-sdk/tree/master
+
 # Mendeley Python SDK
 
 ![Monthly downloads](https://img.shields.io/pypi/dm/mendeley.svg)
