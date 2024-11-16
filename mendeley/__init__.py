@@ -2,7 +2,7 @@ import os
 import random
 import string
 
-from future.moves.urllib.parse import urlsplit
+from urllib.parse import urlsplit
 
 from mendeley.auth import MendeleyClientCredentialsAuthenticator, \
     MendeleyAuthorizationCodeAuthenticator, \

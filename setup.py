@@ -7,7 +7,7 @@ with open('mendeley/version.py') as f:
     exec(f.read())
 
 setup(
-    name='mendeley_fixed',
+    name='mendeley-updated',
     version=__version__,
     packages=['mendeley', 'mendeley.models', 'mendeley.resources'],
     url='https://github.com/civilwargeeky/mendeley-python-sdk',

@@ -2,7 +2,7 @@
 
 import platform
 
-from future.moves.urllib.parse import urljoin
+from urllib.parse import urljoin
 from oauthlib.oauth2 import TokenExpiredError
 from requests_oauthlib import OAuth2Session
 

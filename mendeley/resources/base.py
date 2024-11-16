@@ -1,5 +1,4 @@
-from future.moves.urllib.parse import urlsplit, parse_qs, urlencode, urlunsplit
-from future.utils import iteritems
+from urllib.parse import urlsplit, parse_qs, urlencode, urlunsplit
 
 from mendeley.pagination import Page
 from mendeley.response import LazyResponseObject
@@ -56,7 +55,7 @@ def add_query_params(url, params):
     scheme, netloc, path, query_string, fragment = urlsplit(url)
     query_params = parse_qs(query_string)
 
-    for name, value in iteritems(params):
+    for name, value in params.items():
         if value:
             query_params[name] = [value]
 
