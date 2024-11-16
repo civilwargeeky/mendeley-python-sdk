@@ -14,12 +14,12 @@ The Mendeley Python SDK provides access to the [Mendeley API](https://www.mendel
 The base Mendeley branch has not been updated in 7 years. I have implemented code from all the active pull requests and from one of the Mendeley forks also
 
 Implemented:
-- Session should automatically refresh OAuth2 tokens: wrongu/mendeley-python-sdk
-- Implemented a function for creating a new document directly from a Requests response: fdroessler/mendeley-python-sdk/tree/document_from_requests
-- Added the ability to access and manipulate folders in Mendeley: cjblocker/mendeley-python-sdk/tree/folders
-- Add support for accessing ScopusID for authors: jsabuco/mendeley-python-sdk/tree/master
-- Update requirements.txt to remove decade-old pinned dependencies: trldp/mendeley-python-sdk/tree/master
-- Update setup.py to remove decades-old dependencies: felliott/mendeley-python-sdk/tree/osf-dep-updates
+- Session should automatically refresh OAuth2 tokens: [wrongu/mendeley-python-sdk](https://github.com/wrongu/mendeley-python-sdk/tree/master)
+- Implemented a function for creating a new document directly from a Requests response: [fdroessler/mendeley-python-sdk/tree/document_from_requests](https://github.com/fdroessler/mendeley-python-sdk/tree/document_from_requests)
+- Added the ability to access and manipulate folders in Mendeley: [cjblocker/mendeley-python-sdk/tree/folders](https://github.com/cjblocker/mendeley-python-sdk/tree/folders)
+- Add support for accessing ScopusID for authors: [jsabuco/mendeley-python-sdk/tree/master](https://github.com/jsabuco/mendeley-python-sdk/tree/master)
+- Update requirements.txt to remove decade-old pinned dependencies: [trldp/mendeley-python-sdk/tree/master](https://github.com/trldp/mendeley-python-sdk/tree/master)
+- Update setup.py to remove decade-old dependencies: [felliott/mendeley-python-sdk/tree/osf-dep-updates](https://github.com/felliott/mendeley-python-sdk/tree/feature/osf-dep-updates)
 
 New Features:
 - You can call session.documents.create_pdf_from_requests(response, filename) to directly create a new document from a PDF
