@@ -26,7 +26,15 @@ New Features:
 - You can use session.folders to access the folders for a user. See here for documentation: Mendeley/mendeley-python-sdk/pull/23/files
 - Adds "scopus_author_id" to Person objects
 
-## Installation
+## Installation for this package
+
+Clone the repository
+Use pip to do
+
+    pip install ./path/to/repository/
+
+
+## Installation for Mendeley version
 
 You might like to set up a virtualenv for your project that uses the Mendeley API. See this [virtualenv tutorial](http://simononsoftware.com/virtualenv-tutorial-part-2/) for instructions. IDEs like IntelliJ with the Python plugin or PyCharm can also help you manage a virtualenv.
 
