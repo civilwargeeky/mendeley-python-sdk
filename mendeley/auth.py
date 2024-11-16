@@ -5,7 +5,6 @@ import json
 from oauthlib.oauth2 import MobileApplicationClient, BackendApplicationClient, WebApplicationClient
 from requests.auth import HTTPBasicAuth
 from requests_oauthlib import OAuth2Session
-from future.builtins import bytes
 
 from mendeley.session import MendeleySession
 
